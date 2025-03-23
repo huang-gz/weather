@@ -1,0 +1,10 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "A weather information application"
+authors = [{name = "huang-gz"}]
+dependencies = ["requests"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
